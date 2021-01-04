@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Article preview component</title>
+</head>
+
+<body>
+
+  <main>
+    <section class="content">
+      <section class="card">
+        <article class="post-image">
+          <img src="images/drawers.jpg" alt="Image of Drawers">
+        </article>
+        <article class="post-content">
+          <header>
+            <h3>Shift the overall look and feel by adding these wonderful
+              touches to furniture in your home</h3>
+            <p>Ever been in a room and felt like something was missing? Perhaps
+              it felt slightly bare and uninviting. I’ve got some simple tips
+              to help you make any room feel complete.</p>
+          </header>
+          <div class="details-container">
+            <footer id="post-footer" class="post-author">
+              <section id="author-details" class="author-details">
+                <img src="images/avatar-michelle.jpg" alt="Avatar of Michelle">
+                <div>
+                  <h5>Michelle Appleton</h5>
+                  <p>28 Jun 2020</p>
+                </div>
+              </section>
+              <button id="share-btn">
+                <svg id="share-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                  style="fill:hsl(214, 17%, 51%);transform:;-ms-filter:">
+                  <path
+                    d="M11,6.914V2.586L6.293,7.293l-3.774,3.774l3.841,3.201L11,18.135V13.9c8.146-0.614,11,4.1,11,4.1 c0-2.937-0.242-5.985-2.551-8.293C16.765,7.022,12.878,6.832,11,6.914z">
+                  </path>
+                </svg>
+              </button>
+            </footer>
+            <section id="share-tooltip" style="display: none;">
+              <div id="tooltip-content" class="tooltip-text">
+                <h5>Share</h5>
+                <img src="images/icon-facebook.svg" alt="Facebook icon">
+                <img src="images/icon-twitter.svg" alt="Twitter icon">
+                <img src="images/icon-pinterest.svg" alt="Pinterest icon">
+              </div>
+            </section>
+          </div>
+        </article>
+      </section>
+    </section>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://ahmadihsan.com" target="_blank">Ahmad Ihsan</a>.
+    </div>
+  </main>
+
+  <script type="text/javascript" src="/script.js"></script>
+</body>
+
+</html>
